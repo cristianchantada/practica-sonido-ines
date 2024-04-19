@@ -19,14 +19,20 @@
             <a href="#activity-1-section">Actividad 1</a>
             <a href="#activity-2-section">Actividad 2</a>
             <a href="#activity-3-section">Actividad 3</a>
+            <a href="#activity-4-section">Actividad 4</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="activity-1-section">
             <div>
                 <h3>Actividad 1</h3>
                 <p>Se trata de seleccionar un vídeo con licencia de dominio público o bien CC BY, señalando además su título y autoría para, posteriormente, en las siguientes dos actividades trabajar sobre él</p>
-            </div>
+                <h4>Herramienta utilizada y URL</h4>
+                <p>Creative commons</p>
+                <a href="https://search.creativecommons.org/">visitar</a>
+                <p>Vídeo de OPEN IA en Youtube</p>
+                <a href="https://www.youtube.com/watch?v=tRSdt5kmeW0">Ver vídeo en yotube</a>
+              </div>
             <div>
                 <table class="activity-1-table">
                     <thead>
@@ -53,11 +59,11 @@
                 </table>
             </div>
         </section>
-        <section>
+        <section id="activity-2-section"> 
             <div>
                 <h3>Actividad 2</h3>
                 <p>Consiste en analizar el vídeo seleccionado en la actividad anterior, en cuanto a las propiedades digitales de su archivo</p>
-                <br>
+                <h4>Herramienta utilizada y URL</h4>
                 <p>Para analizar las propiedades del vídeo se utiliza la web mediaarea.net</p>
                 <a href="https://mediaarea.net/MediaInfoOnline">Visitar</a>
             </div>
@@ -93,11 +99,11 @@
                 </table>
             </div>
         </section>
-        <section>
+        <section id="activity-3-section">
             <div>
                 <h3>Actividad 3</h3>
                 <p>Se realiza una conversión del vídeo objeto de esta actividad con el objetivo estudiar los diferentes valores de sus características digitales para compararlos con los de la pista original</p>
-                <br>
+                <h4>Herramienta utilizada y URL</h4>
                 <p>Se utiliza como herramienta de conversión de vídeo (online) VEED.IO</p>
                 <a href="https://www.veed.io/es-CO/convertir/convertidor-de-video?utm_id=20970473734&utm_term=&utm_campaign=x_T2_T3-ES-Pmax-New_Customers&utm_source=google&utm_medium=cpc&utm_content=_&hsa_acc=2332311570&hsa_cam=20970473734&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH50xm9h3OwM8jKDQKt822KoASjFbP2U0adKiKVFPS0e9HfiA-4W82y0aApe0EALw_wcB">Visitar</a>
             </div>
@@ -133,22 +139,23 @@
                 </table>
             </div>
         </section>
-        <section>
+        <section id="activity-1-section">
           <div>
             <h3>Actividad 4</h3>
             <p>Consiste en insertar nuestro vídeo en la web de dos maneras diferentes: la primera mediante el elemento HTML video (con sus respectivos hijos del tipo source y track) y la segunda mediante el elemento HTML iframe (incrustación directa del vídeo desde la página dónde realmente está subido)</p>
-        </div>
+            <p>No se utilizan herramientas externas en esta actividad</p>
+          </div>
           </div>
           <div class="video-container">
-            <video src=""  width="" height="" autoplay controls poster="./imgs/poster-video-tokyo-walk.png">
+            <video width="800" height="600" autoplay loop controls poster="./imgs/poster-video-tokyo-walk.png">
               Su navegador no soporta contenido multimedia
-              <source src="video/convertido-OpenAI Sora in Action： Tokyo Walk.webm" type="video/webm">
-              <source src="video/original-OpenAI Sora in Action： Tokyo Walk.avi" type="video/x-msvideo">
-              <track src="" kind="subtitles" srclang="es" label="Castellano">
-              <track src="" kind="subtitles" srclang="gl" label="Galego">
-              <track src="" kind="subtitles" srclang="pt" label="Português">
-              <track src="" kind="subtitles" srclang="en" label="English">
-              <track src="" kind="subtitles" srclang="fr" label="Français">
+              <source src="video/convertido-TokyoWalk-cristian.webm" type="video/webm">
+              <source src="video/original-TokyoWalk-cristian.avi" type="video/x-msvideo">
+              <track src="./subtitles/castellano.vtt" kind="subtitles" srclang="es" label="Castellano">
+              <track src="./subtitles/galego.vtt" kind="subtitles" srclang="gl" label="Galego">
+              <track src="./subtitles/portugues.vtt" kind="subtitles" srclang="pt" label="Português">
+              <track src="./subtitles/english.vtt" kind="subtitles" srclang="en" label="English">
+              <track src="./subtitles/francais.vtt" kind="subtitles" srclang="fr" label="Français">
             </video>
           </div>
           <div class="iframe-container">
