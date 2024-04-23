@@ -141,7 +141,7 @@
         </section>
         <section id="activity-1-section">
           <div>
-            <h3>Actividad 4</h3>
+            <h3>Actividad 4 (sin sonido)</h3>
             <p>Consiste en insertar nuestro vídeo en la web de dos maneras diferentes: la primera mediante el elemento HTML video (con sus respectivos hijos del tipo source y track) y la segunda mediante el elemento HTML iframe (incrustación directa del vídeo desde la página dónde realmente está subido)</p>
             <p>No se utilizan herramientas externas en esta actividad</p>
           </div>
@@ -163,6 +163,21 @@
           </div>
           <a href="./video/original-TokyoWalk-cristian.avi" download>Descargar video original</a>
           <a href="./video/convertido-TokyoWalk-cristian.webm" download>Descargar video convertido</a>
+          
+          <div class="audio-video-container">
+            <h3>Actividad 4 (con sonido)</h3>
+            <video width="800" height="600" controls>
+              Su navegador no soporta contenido multimedia
+              <source src="video/con-audio-TokyoWalk-cristian.mp4" type="video/webm">
+              <source src="video/con-audio-TokyoWalk-cristian.mov" type="video/x-msvideo">
+              <track src="./subtitles/castellano.vtt" kind="subtitles" srclang="es" label="Castellano">
+              <track src="./subtitles/galego.vtt" kind="subtitles" srclang="gl" label="Galego">
+              <track src="./subtitles/portugues.vtt" kind="subtitles" srclang="pt" label="Português">
+              <track src="./subtitles/english.vtt" kind="subtitles" srclang="en" label="English">
+              <track src="./subtitles/francais.vtt" kind="subtitles" srclang="fr" label="Français">
+            </video>
+          </div>
+
         </section>
     </main>
 </body>
